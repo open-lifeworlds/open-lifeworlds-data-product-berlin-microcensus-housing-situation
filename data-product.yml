@@ -6,6 +6,54 @@ metadata:
   - schema:
 description:
 input_ports:
+  - id: berlin-lor-geodata
+    metadata:
+      name: Berlin LOR geodata
+      author: Open Lifeworlds
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/tree/main/data
+      license: CC-BY-4.0
+      updated: 2023-07-22
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-districts/berlin-lor-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+  - id: berlin-microcensus-housing-situation-csv
+    metadata:
+      name: Berlin microcensus housing situation csv
+      author: Open Lifeworlds
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/tree/main/data
+      license: CC-BY-4.0
+      updated: 2024-05-06
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-19-apartments-in-residential-buildings-by-district-occupancy-and-living-area.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-20-apartments-in-residential-buildings-by-district-year-of-construction-and-usage-type-1949-and-later.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-20-apartments-in-residential-buildings-by-district-year-of-construction-and-usage-type-before-1948.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-20-apartments-in-residential-buildings-by-district-year-of-construction-and-usage-type-total.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-21-apartments-in-residential-buildings-by-district-usage-type-living-area-and-occupancy-owners-apartments.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-21-apartments-in-residential-buildings-by-district-usage-type-living-area-and-occupancy-rental-apartments.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-21-apartments-in-residential-buildings-by-district-usage-type-living-area-and-occupancy-total.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-22-apartments-in-residential-buildings-by-district-and-living-area.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-23-apartments-in-residential-buildings-by-district-and-gross-rent.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-24-apartments-in-residential-buildings-by-district-and-gross-rent-per-sqm.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-25-main-tenant-households-in-residential-buildings-by-district-and-rental-burden.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-23-apartments-in-residential-buildings-by-district-occupancy-and-living-area.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-24-apartments-in-residential-buildings-by-district-year-of-construction-and-usage-type-1949-and-later.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-24-apartments-in-residential-buildings-by-district-year-of-construction-and-usage-type-before-1948.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-24-apartments-in-residential-buildings-by-district-year-of-construction-and-usage-type-total.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-25-apartments-in-residential-buildings-by-district-usage-type-living-area-and-occupancy-owners-apartments.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-25-apartments-in-residential-buildings-by-district-usage-type-living-area-and-occupancy-rental-apartments.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-25-apartments-in-residential-buildings-by-district-usage-type-living-area-and-occupancy-total.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-26-apartments-in-residential-buildings-by-district-and-building-type.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-27-apartments-in-residential-buildings-by-district-and-owner.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-28-apartments-in-residential-buildings-by-district-and-living-area.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-29-apartments-in-residential-buildings-by-district-and-gross-rent.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-30-apartments-in-residential-buildings-by-district-and-gross-rent-per-sqm.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-31-main-tenant-households-in-residential-buildings-by-district-and-rental-burden.csv
 output_ports:
 metrics:
   - quality:
