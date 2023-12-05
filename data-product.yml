@@ -1,0 +1,18 @@
+---
+id: berlin-lor-microcensus-housing-situation
+name: Berlin LOR microcensus housing situation
+metadata:
+  - ownership:
+  - schema:
+description:
+input_ports:
+output_ports:
+metrics:
+  - quality:
+  - operational:
+classification:
+tags:
+  - berlin
+  - lor
+  - housing
+  - building
