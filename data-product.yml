@@ -141,8 +141,8 @@ output_ports:
       license: CC-BY-4.0
       updated: 2024-05-08
     files:
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation/tree/main/data/berlin-lor-microcensus-housing-situation-2014-00/berlin-lor-microcensus-housing-situation-2014-00-districts.geojson
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation/tree/main/data/berlin-lor-microcensus-housing-situation-2018-00/berlin-lor-microcensus-housing-situation-2018-00-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation/main/data/berlin-lor-microcensus-housing-situation-2014-00/berlin-lor-microcensus-housing-situation-2014-00-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation/main/data/berlin-lor-microcensus-housing-situation-2018-00/berlin-lor-microcensus-housing-situation-2018-00-districts.geojson
   - id: berlin-lor-microcensus-housing-situation-statistics
     metadata:
       name: Berlin LOR microcensus housing situation statistics
@@ -151,7 +151,7 @@ output_ports:
       license: CC-BY-4.0
       updated: 2024-05-08
     files:
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation/tree/main/data/berlin-lor-microcensus-housing-situation-statistics/berlin-lor-microcensus-housing-situation-statistics.json
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation/main/data/berlin-lor-microcensus-housing-situation-statistics/berlin-lor-microcensus-housing-situation-statistics.json
 metrics:
   - quality:
       - completeness

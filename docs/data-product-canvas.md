@@ -59,12 +59,12 @@ statements, or used data platform services.**
 
 The data of this data product is available under the following URLs
 
-* [berlin-lor-microcensus-housing-situation-2014-00/berlin-lor-microcensus-housing-situation-2014-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation/tree/main/data/berlin-lor-microcensus-housing-situation-2014-00/berlin-lor-microcensus-housing-situation-2014-00-districts.geojson)
-* [berlin-lor-microcensus-housing-situation-2018-00/berlin-lor-microcensus-housing-situation-2018-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation/tree/main/data/berlin-lor-microcensus-housing-situation-2018-00/berlin-lor-microcensus-housing-situation-2018-00-districts.geojson)
+* [berlin-lor-microcensus-housing-situation-2014-00/berlin-lor-microcensus-housing-situation-2014-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation/main/data/berlin-lor-microcensus-housing-situation-2014-00/berlin-lor-microcensus-housing-situation-2014-00-districts.geojson)
+* [berlin-lor-microcensus-housing-situation-2018-00/berlin-lor-microcensus-housing-situation-2018-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation/main/data/berlin-lor-microcensus-housing-situation-2018-00/berlin-lor-microcensus-housing-situation-2018-00-districts.geojson)
 
 Additionally, statistics are available under the following URLs
 
-* [berlin-lor-microcensus-housing-situation-statistics/berlin-lor-microcensus-housing-situation-statistics.json](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation/tree/main/data/berlin-lor-microcensus-housing-situation-statistics/berlin-lor-microcensus-housing-situation-statistics.json)
+* [berlin-lor-microcensus-housing-situation-statistics/berlin-lor-microcensus-housing-situation-statistics.json](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation/main/data/berlin-lor-microcensus-housing-situation-statistics/berlin-lor-microcensus-housing-situation-statistics.json)
 
 ## Metadata
 
