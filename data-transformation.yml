@@ -1,0 +1,86 @@
+---
+attribute_groups:
+  occupancy-and-living-area: &occupancy-and-living-area
+    - name: total
+    - name: uninhabited_apartments
+    - name: inhabited_apartments
+    - name: inhabited_apartments_living_area
+    - name: inhabited_apartments_living_area_per_apartment
+    - name: inhabited_apartments_living_area_per_person
+    - name: inhabited_apartments_persons_per_apartment
+  living-area: &living-area
+    - name: living_area_below_40sqm
+    - name: living_area_between_40_and_60sqm
+    - name: living_area_between_60_and_80sqm
+    - name: living_area_between_80_and_100sqm
+    - name: living_area_between_100_and_120sqm
+    - name: living_area_above_120sqm
+  gross-rent: &gross-rent
+    - name: gross_rent_below_300_euros
+    - name: gross_rent_between_300_and_400_euros
+    - name: gross_rent_between_400_and_500_euros
+    - name: gross_rent_between_500_and_600_euros
+    - name: gross_rent_above_600_euros
+    - name: gross_rent_average
+  gross-rent-per-sqm: &gross-rent-per-sqm
+    - name: gross_rent_per_sqm_below_6_euros
+    - name: gross_rent_per_sqm_between_6_and_7_euros
+    - name: gross_rent_per_sqm_between_7_and_8_euros
+    - name: gross_rent_per_sqm_between_8_and_9_euros
+    - name: gross_rent_per_sqm_above_9_euros
+    - name: gross_rent_per_sqm_average
+  percentage-of-household-net-income: &percentage-of-household-net-income
+    - name: percentage_of_household_net_income_below_15%
+    - name: percentage_of_household_net_income_between_15_and_25%
+    - name: percentage_of_household_net_income_between_25_and_35%
+    - name: percentage_of_household_net_income_between_35_and_45%
+    - name: percentage_of_household_net_income_above_45%
+    - name: percentage_of_household_net_income_average
+  building-type: &building-type
+    - name: single_family_house_total
+    - name: single_family_house_detached
+    - name: single_family_house_semi_detached
+    - name: single_family_house_terraced
+    - name: multi_family_house_total
+    - name: multi_family_house_detached
+    - name: multi_family_house_terraced
+  owner: &owner
+    - name: inhabited_by_owner
+    - name: rented_out_owner_is_private_person
+    - name: rented_out_owner_is_private_organization
+    - name: rented_out_owner_is_public_institution
+    - name: rented_out_owner_is_housing_cooperative
+input_port_groups:
+  - id: berlin-microcensus-housing-situation
+    input_ports:
+      - id: berlin-microcensus-housing-situation-2014-00
+        files:
+          - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+            target_file_name: berlin-microcensus-housing-situation-2014-00-districts.geojson
+            source_files:
+              - { source_file_name: berlin-microcensus-housing-situation-2014-00-19-apartments-by-occupancy-and-living-area-districts.csv, attributes: *occupancy-and-living-area }
+              - { source_file_name: berlin-microcensus-housing-situation-2014-00-22-apartments-by-living-area-districts.csv, attributes: *living-area }
+              - { source_file_name: berlin-microcensus-housing-situation-2014-00-23-apartments-by-gross-rent-districts.csv, attributes: *gross-rent }
+              - { source_file_name: berlin-microcensus-housing-situation-2014-00-24-apartments-by-gross-rent-per-sqm-districts.csv, attributes: *gross-rent-per-sqm }
+              - { source_file_name: berlin-microcensus-housing-situation-2014-00-25-households-by-percentage-of-household-net-income-districts.csv, attributes: *percentage-of-household-net-income }
+      - id: berlin-microcensus-housing-situation-2018-00
+        files:
+          - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+            target_file_name: berlin-microcensus-housing-situation-2018-00-districts.geojson
+            source_files:
+              - { source_file_name: berlin-microcensus-housing-situation-2018-00-23-apartments-by-occupancy-and-living-area-districts.csv, attributes: *occupancy-and-living-area }
+              - { source_file_name: berlin-microcensus-housing-situation-2018-00-26-apartments-by-building-type-districts.csv, attributes: *building-type }
+              - { source_file_name: berlin-microcensus-housing-situation-2018-00-27-apartments-by-owner-districts.csv, attributes: *owner }
+              - { source_file_name: berlin-microcensus-housing-situation-2018-00-28-apartments-by-living-area-districts.csv, attributes: *living-area }
+              - { source_file_name: berlin-microcensus-housing-situation-2018-00-29-apartments-by-gross-rent-districts.csv, attributes: *gross-rent }
+              - { source_file_name: berlin-microcensus-housing-situation-2018-00-30-apartments-by-gross-rent-per-sqm-districts.csv, attributes: *gross-rent-per-sqm }
+              - { source_file_name: berlin-microcensus-housing-situation-2018-00-31-households-by-percentage-of-household-net-income-districts.csv, attributes: *percentage-of-household-net-income }
+      - id: berlin-microcensus-housing-situation-2022-00
+        files:
+          - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+            target_file_name: berlin-microcensus-housing-situation-2022-00-districts.geojson
+            source_files:
+              - { source_file_name: berlin-microcensus-housing-situation-2022-00-15-households-by-building-type-districts.csv, attributes: *building-type }
+              - { source_file_name: berlin-microcensus-housing-situation-2022-00-16-apartments-by-owner-districts.csv, attributes: *owner }
+              - { source_file_name: berlin-microcensus-housing-situation-2022-00-17-apartments-by-living-area-districts.csv, attributes: *living-area }
+              - { source_file_name: berlin-microcensus-housing-situation-2022-00-18-households-by-gross-rent-districts.csv, attributes: *gross-rent }

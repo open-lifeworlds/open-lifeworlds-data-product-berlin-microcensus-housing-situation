@@ -1,0 +1,361 @@
+---
+id: berlin-microcensus-housing-situation
+metadata:
+  name: Berlin Microcensus Housing Situation
+  owner: Open Lifeworlds
+  description: Data products providing Berlin microcensus housing situation data on different hierarchy levels
+  url:
+  license:
+  updated: 2025-07-15
+  schema:
+    - name: district_id
+      description: district ID
+    - name: apartments
+      description: number of apartments in 1000
+    - name: uninhabited_apartments
+      description: number of uninhabited apartments in 1000
+    - name: inhabited_apartments
+      description: number of inhabited apartments in 1000
+    - name: inhabited_apartments_living_area
+      description: living area in 10000 sqm
+    - name: inhabited_apartments_living_area_per_apartment
+      description: living area per apartment in sqm
+    - name: inhabited_apartments_living_area_per_person
+      description: living area per person in sqm
+    - name: inhabited_apartments_persons_per_apartment
+      description: persons per apartment
+    - name: district_id
+      description: district ID
+    - name: apartments
+      description: number of apartments in 1000
+    - name: inhabited_by_owner
+      description: number of apartments inhabitants by owner in 1000
+    - name: inhabited_by_owner_percentage
+      description: percentage of apartments inhabitants by owner
+    - name: rented_out
+      description: number of rented out apartments in 1000
+    - name: rented_out_percentage
+      description: percentage of rented out apartments
+    - name: district_id
+      description: district ID
+    - name: apartments
+      description: number of apartments in 1000
+    - name: living_area
+      description: living area in 10000 sqm
+    - name: living_area_per_apartment
+      description: living area per apartment in sqm
+    - name: persons_per_apartment
+      description: persons per apartments
+    - name: living_area_per_person
+      description: living area per person in sqm
+    - name: district_id
+      description: district ID
+    - name: apartments
+      description: number of apartments in 1000
+    - name: single_family_houses
+      description: number of single-family houses in 1000
+    - name: single_family_houses_detached
+      description: number of single-family houses (detached) in 1000
+    - name: single_family_houses_semi_detached
+      description: number of single-family houses (semi-detached) in 1000
+    - name: single_family_houses_terraced
+      description: number of single-family houses (terraced) in 1000
+    - name: multi_family_houses
+      description: number of multi-family-houses in 1000
+    - name: multi_family_houses_detached
+      description: number of multi-family-houses (detached) in 1000
+    - name: multi_family_houses_terraced
+      description: number of multi-family-houses (terraced) in 1000
+    - name: district_id
+      description: district ID
+    - name: apartments
+      description: number of apartments
+    - name: inhabited_by_owner
+      description: inhabited by owner
+    - name: rented_out_owned_by_private_person
+      description: rented out, owned by private person
+    - name: rented_out_owned_by_private_company
+      description: rented out, owned by private company
+    - name: rented_out_owned_by_public_institution
+      description: rented out, owned by public institution
+    - name: rented_out_owned_by_housing_cooperative
+      description: rented out, owned by housing cooperative
+    - name: district_id
+      description: district ID
+    - name: apartments
+      description: number of apartments in 1000
+    - name: living_area_below_40sqm
+      description: number of apartments with living area below 40 sqm in 1000
+    - name: living_area_between_40_and_60sqm
+      description: number of apartments with living area between 40 and 60 sqm in 1000
+    - name: living_area_between_60_and_80sqm
+      description: number of apartments with living area between 60 and 80 sqm in 1000
+    - name: living_area_between_80_and_100sqm
+      description: number of apartments with living area between 80 and 100 sqm in 1000
+    - name: living_area_between_100_and_120sqm
+      description: number of apartments with living area between 100 and 120 sqm in 1000
+    - name: living_area_between_above_120sqm
+      description: number of apartments with living area between above 120 sqm in 1000
+    - name: district_id
+      description: district ID
+    - name: apartments
+      description: number of apartments in 1000
+    - name: gross_rent_below_300_euros
+      description: number of apartments with gross rent below 300 Euros in 1000
+    - name: gross_rent_between_300_and_400_euros
+      description: number of apartments with gross rent between 300 and 400 Euros in 1000
+    - name: gross_rent_between_400_and_500_euros
+      description: number of apartments with gross rent between 400 and 500 Euros in 1000
+    - name: gross_rent_between_500_and_600_euros
+      description: number of apartments with gross rent between 500 and 600 Euros in 1000
+    - name: gross_rent_above_600_euros
+      description: number of apartments with gross rent above 600 Euros in 1000
+    - name: average_gross_rent
+      description: average gross rent in Euros
+    - name: district_id
+      description: district ID
+    - name: apartments
+      description: number of apartments in 1000
+    - name: gross_rent_per_sqm_below_6_euros
+      description: number of apartments with gross rent per sqm below 6 Euros in 1000
+    - name: gross_rent_per_sqm_between_6_and_7_euros
+      description: number of apartments with gross rent per sqm between 6 and 7 Euros in 1000
+    - name: gross_rent_per_sqm_between_7_and_8_euros
+      description: number of apartments with gross rent per sqm between 7 and 8 Euros in 1000
+    - name: gross_rent_per_sqm_between_8_and_9_euros
+      description: number of apartments with gross rent per sqm between 8 and 9 Euros in 1000
+    - name: gross_rent_per_sqm_above_9_euros
+      description: number of apartments with gross rent per sqm above 9 Euros in 1000
+    - name: average_gross_rent_per_sqm
+      description: average gross rent per sqm in Euros
+    - name: district_id
+      description: district ID
+    - name: apartments
+      description: number of apartments in 1000
+    - name: percentage_of_household_net_income_below_15
+      description:
+    - name: percentage_of_household_net_income_between_15_and_25
+      description:
+    - name: percentage_of_household_net_income_between_25_and_35
+      description:
+    - name: percentage_of_household_net_income_between_35_and_45
+      description:
+    - name: percentage_of_household_net_income_above_45
+      description:
+    - name: average_percentage_of_household_net_income
+      description: average percentage of household net income
+input_ports:
+  - id: berlin-lor-city
+    metadata:
+      name: Berlin Lor City
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/02-silver/berlin-lor-city
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-city/berlin-lor-city.geojson
+  - id: berlin-lor-district-regions-from-2021
+    metadata:
+      name: Berlin Lor District Regions From 2021
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/02-silver/berlin-lor-district-regions-from-2021
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+  - id: berlin-lor-district-regions-until-2020
+    metadata:
+      name: Berlin Lor District Regions Until 2020
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/02-silver/berlin-lor-district-regions-until-2020
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+  - id: berlin-lor-districts
+    metadata:
+      name: Berlin Lor Districts
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/02-silver/berlin-lor-districts
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-districts/berlin-lor-districts.geojson
+  - id: berlin-lor-forecast-areas-from-2021
+    metadata:
+      name: Berlin Lor Forecast Areas From 2021
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/02-silver/berlin-lor-forecast-areas-from-2021
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+  - id: berlin-lor-forecast-areas-until-2020
+    metadata:
+      name: Berlin Lor Forecast Areas Until 2020
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/02-silver/berlin-lor-forecast-areas-until-2020
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+  - id: berlin-lor-planning-areas-from-2021
+    metadata:
+      name: Berlin Lor Planning Areas From 2021
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/02-silver/berlin-lor-planning-areas-from-2021
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+  - id: berlin-lor-planning-areas-until-2020
+    metadata:
+      name: Berlin Lor Planning Areas Until 2020
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/02-silver/berlin-lor-planning-areas-until-2020
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+  - id: berlin-lor-matches
+    metadata:
+      name: Berlin Lor Matches
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/03-gold/berlin-lor-matches
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema: []
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/03-gold/berlin-lor-matches/berlin-lor-matches.json
+  - id: berlin-microcensus-housing-situation-2014-00
+    metadata:
+      name: Berlin Microcensus Housing Situation 2014 00
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/tree/main/data/03-gold/berlin-microcensus-housing-situation-2014-00
+      license:
+      updated: 2025-07-13
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-19-apartments-by-occupancy-and-living-area-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-19-apartments-by-occupancy-and-living-area-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-22-apartments-by-living-area-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-22-apartments-by-living-area-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-23-apartments-by-gross-rent-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-23-apartments-by-gross-rent-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-24-apartments-by-gross-rent-per-sqm-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-24-apartments-by-gross-rent-per-sqm-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-25-households-by-percentage-of-household-net-income-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2014-00/berlin-microcensus-housing-situation-2014-00-25-households-by-percentage-of-household-net-income-districts.csv
+  - id: berlin-microcensus-housing-situation-2018-00
+    metadata:
+      name: Berlin Microcensus Housing Situation 2018 00
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/tree/main/data/03-gold/berlin-microcensus-housing-situation-2018-00
+      license:
+      updated: 2025-07-13
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-23-apartments-by-occupancy-and-living-area-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-23-apartments-by-occupancy-and-living-area-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-26-apartments-by-building-type-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-26-apartments-by-building-type-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-27-apartments-by-owner-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-27-apartments-by-owner-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-28-apartments-by-living-area-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-28-apartments-by-living-area-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-29-apartments-by-gross-rent-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-29-apartments-by-gross-rent-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-30-apartments-by-gross-rent-per-sqm-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-30-apartments-by-gross-rent-per-sqm-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-31-households-by-percentage-of-household-net-income-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00/berlin-microcensus-housing-situation-2018-00-31-households-by-percentage-of-household-net-income-districts.csv
+  - id: berlin-microcensus-housing-situation-2022-00
+    metadata:
+      name: Berlin Microcensus Housing Situation 2022 00
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/tree/main/data/03-gold/berlin-microcensus-housing-situation-2022-00
+      license:
+      updated: 2025-07-13
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2022-00/berlin-microcensus-housing-situation-2022-00-15-households-by-building-type-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2022-00/berlin-microcensus-housing-situation-2022-00-15-households-by-building-type-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2022-00/berlin-microcensus-housing-situation-2022-00-16-apartments-by-owner-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2022-00/berlin-microcensus-housing-situation-2022-00-16-apartments-by-owner-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2022-00/berlin-microcensus-housing-situation-2022-00-17-apartments-by-living-area-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2022-00/berlin-microcensus-housing-situation-2022-00-17-apartments-by-living-area-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2022-00/berlin-microcensus-housing-situation-2022-00-18-households-by-gross-rent-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2022-00/berlin-microcensus-housing-situation-2022-00-18-households-by-gross-rent-districts.csv
+transformation_steps:
+  - name: Data extractor
+    path: https://github.com/open-lifeworlds/open-lifeworlds-python-lib/blob/main/openlifeworlds/extract/data_extractor.py
+    description: extracts data from inout ports
+  - name: Data blender
+    path: https://github.com/open-lifeworlds/open-lifeworlds-python-lib/blob/main/openlifeworlds/transform/data_blender.py
+    description: blends csv data into geojson files
+output_ports:
+  - id: berlin-microcensus-housing-situation-geojson
+    metadata:
+      name: Berlin Microcensus Housing Situation Geojson
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/tree/main/data/03-gold/berlin-microcensus-housing-situation-geojson
+      license:
+      updated: 2025-07-15
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/refs/heads/main/data/03-gold/berlin-microcensus-housing-situation-geojson/berlin-microcensus-housing-situation-2014-00-districts.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/refs/heads/main/data/03-gold/berlin-microcensus-housing-situation-geojson/berlin-microcensus-housing-situation-2018-00-districts.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/refs/heads/main/data/03-gold/berlin-microcensus-housing-situation-geojson/berlin-microcensus-housing-situation-2022-00-districts.geojson
+  - id: berlin-microcensus-housing-situation-statistics
+    metadata:
+      name: Berlin Microcensus Housing Situation Statistics
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/tree/main/data/03-gold/berlin-microcensus-housing-situation-statistics
+      license:
+      updated: 2025-07-15
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/refs/heads/main/data/03-gold/berlin-microcensus-housing-situation-statistics/berlin-microcensus-housing-situation-statistics.json
+observability:
+  quality:
+    - name: geojson_property_completeness
+      description: The percentage of geojson features that have all necessary properties
+      files:
+        - name: berlin-microcensus-housing-situation-2014-00-districts.geojson
+          value: 97
+        - name: berlin-microcensus-housing-situation-2018-00-districts.geojson
+          value: 60
+        - name: berlin-microcensus-housing-situation-2022-00-districts.geojson
+          value: 27
+  operational:
+  slas:
+  security:
+consumers:
+use_cases:
+classification: consumer-aligned
+ubiquitous_language: []
+tags:
+  - berlin
+  - housing
