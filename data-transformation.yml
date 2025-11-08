@@ -53,7 +53,7 @@ attribute_groups:
 input_port_groups:
   - id: berlin-microcensus-housing-situation
     input_ports:
-      - id: berlin-microcensus-housing-situation-2014-00
+      - id: berlin-microcensus-housing-situation-2014-00-csv
         files:
           - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
             target_file_name: berlin-microcensus-housing-situation-2014-00-districts.geojson
@@ -63,7 +63,7 @@ input_port_groups:
               - { source_file_name: berlin-microcensus-housing-situation-2014-00-23-apartments-by-gross-rent-districts.csv, attributes: *gross-rent }
               - { source_file_name: berlin-microcensus-housing-situation-2014-00-24-apartments-by-gross-rent-per-sqm-districts.csv, attributes: *gross-rent-per-sqm }
               - { source_file_name: berlin-microcensus-housing-situation-2014-00-25-households-by-percentage-of-household-net-income-districts.csv, attributes: *percentage-of-household-net-income }
-      - id: berlin-microcensus-housing-situation-2018-00
+      - id: berlin-microcensus-housing-situation-2018-00-csv
         files:
           - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
             target_file_name: berlin-microcensus-housing-situation-2018-00-districts.geojson
@@ -75,7 +75,7 @@ input_port_groups:
               - { source_file_name: berlin-microcensus-housing-situation-2018-00-29-apartments-by-gross-rent-districts.csv, attributes: *gross-rent }
               - { source_file_name: berlin-microcensus-housing-situation-2018-00-30-apartments-by-gross-rent-per-sqm-districts.csv, attributes: *gross-rent-per-sqm }
               - { source_file_name: berlin-microcensus-housing-situation-2018-00-31-households-by-percentage-of-household-net-income-districts.csv, attributes: *percentage-of-household-net-income }
-      - id: berlin-microcensus-housing-situation-2022-00
+      - id: berlin-microcensus-housing-situation-2022-00-csv
         files:
           - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
             target_file_name: berlin-microcensus-housing-situation-2022-00-districts.geojson
