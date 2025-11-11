@@ -6,7 +6,7 @@ metadata:
   description: Data products providing Berlin microcensus housing situation data on different hierarchy levels
   url:
   license:
-  updated: 2025-10-27
+  updated: 2025-10-28
   schema:
     - name: district_id
       description: district ID
@@ -156,6 +156,7 @@ input_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-city/berlin-lor-city.geojson
+    manifest_url:
   - id: berlin-lor-district-regions-from-2021
     metadata:
       name: Berlin Lor District Regions From 2021
@@ -167,6 +168,7 @@ input_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+    manifest_url:
   - id: berlin-lor-district-regions-until-2020
     metadata:
       name: Berlin Lor District Regions Until 2020
@@ -178,6 +180,7 @@ input_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+    manifest_url:
   - id: berlin-lor-districts
     metadata:
       name: Berlin Lor Districts
@@ -189,6 +192,7 @@ input_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-districts/berlin-lor-districts.geojson
+    manifest_url:
   - id: berlin-lor-forecast-areas-from-2021
     metadata:
       name: Berlin Lor Forecast Areas From 2021
@@ -200,6 +204,7 @@ input_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+    manifest_url:
   - id: berlin-lor-forecast-areas-until-2020
     metadata:
       name: Berlin Lor Forecast Areas Until 2020
@@ -211,6 +216,7 @@ input_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+    manifest_url:
   - id: berlin-lor-planning-areas-from-2021
     metadata:
       name: Berlin Lor Planning Areas From 2021
@@ -222,6 +228,7 @@ input_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+    manifest_url:
   - id: berlin-lor-planning-areas-until-2020
     metadata:
       name: Berlin Lor Planning Areas Until 2020
@@ -233,6 +240,7 @@ input_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+    manifest_url:
   - id: berlin-lor-matches
     metadata:
       name: Berlin Lor Matches
@@ -244,6 +252,7 @@ input_ports:
       schema: []
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/03-gold/berlin-lor-matches/berlin-lor-matches.json
+    manifest_url:
   - id: berlin-microcensus-housing-situation-2014-00-csv
     metadata:
       name: Berlin Microcensus Housing Situation 2014 00 Csv
@@ -264,6 +273,7 @@ input_ports:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2014-00-csv/berlin-microcensus-housing-situation-2014-00-24-apartments-by-gross-rent-per-sqm-districts.csv
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2014-00-csv/berlin-microcensus-housing-situation-2014-00-25-households-by-percentage-of-household-net-income-city.csv
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2014-00-csv/berlin-microcensus-housing-situation-2014-00-25-households-by-percentage-of-household-net-income-districts.csv
+    manifest_url:
   - id: berlin-microcensus-housing-situation-2018-00-csv
     metadata:
       name: Berlin Microcensus Housing Situation 2018 00 Csv
@@ -288,6 +298,7 @@ input_ports:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00-csv/berlin-microcensus-housing-situation-2018-00-30-apartments-by-gross-rent-per-sqm-districts.csv
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00-csv/berlin-microcensus-housing-situation-2018-00-31-households-by-percentage-of-household-net-income-city.csv
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2018-00-csv/berlin-microcensus-housing-situation-2018-00-31-households-by-percentage-of-household-net-income-districts.csv
+    manifest_url:
   - id: berlin-microcensus-housing-situation-2022-00-csv
     metadata:
       name: Berlin Microcensus Housing Situation 2022 00 Csv
@@ -306,6 +317,7 @@ input_ports:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2022-00-csv/berlin-microcensus-housing-situation-2022-00-17-apartments-by-living-area-districts.csv
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2022-00-csv/berlin-microcensus-housing-situation-2022-00-18-households-by-gross-rent-city.csv
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/main/data/03-gold/berlin-microcensus-housing-situation-2022-00-csv/berlin-microcensus-housing-situation-2022-00-18-households-by-gross-rent-districts.csv
+    manifest_url:
 transformation_steps:
   - name: Data extractor
     path: https://github.com/open-lifeworlds/open-lifeworlds-python-lib/blob/main/openlifeworlds/extract/data_extractor.py
@@ -321,12 +333,13 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/tree/main/data/03-gold/berlin-microcensus-housing-situation-geojson
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/refs/heads/main/data/03-gold/berlin-microcensus-housing-situation-geojson/berlin-microcensus-housing-situation-2014-00-districts.geojson
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/refs/heads/main/data/03-gold/berlin-microcensus-housing-situation-geojson/berlin-microcensus-housing-situation-2018-00-districts.geojson
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/refs/heads/main/data/03-gold/berlin-microcensus-housing-situation-geojson/berlin-microcensus-housing-situation-2022-00-districts.geojson
+    manifest_url:
   - id: berlin-microcensus-housing-situation-statistics
     metadata:
       name: Berlin Microcensus Housing Situation Statistics
@@ -334,10 +347,11 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/tree/main/data/03-gold/berlin-microcensus-housing-situation-statistics
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/refs/heads/main/data/03-gold/berlin-microcensus-housing-situation-statistics/berlin-microcensus-housing-situation-statistics.json
+    manifest_url:
 observability:
   quality:
     - name: geojson_property_completeness
