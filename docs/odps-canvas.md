@@ -8,13 +8,13 @@
 
 * output file formats: geojson
 * categories: timeseries
-* description: Data product combining Berlin microcensus housing situation data and geodata
-* logo URL: https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-berlin-microcensus-housing-situation/refs/heads/main/logo-with-text.png
+* description: Data products providing Berlin microcensus housing situation data on different hierarchy levels
+* logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/logo-with-text.png
 * product ID: berlin-microcensus-housing-situation
 * product series: Berlin Timeseries Series
 * status: active
-* tags: Berlin, housing
-* type: consumer-aligned
+* tags: berlin, housing
+* type: source-aligned
 * value proposition: Combining Berlin microcensus housing situation data and geodata
 * version: 1.0
 * visibility: public

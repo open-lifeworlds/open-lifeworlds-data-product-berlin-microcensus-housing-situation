@@ -6,7 +6,7 @@ metadata:
   description: Data products providing Berlin microcensus housing situation data on different hierarchy levels
   url:
   license:
-  updated: 2025-10-28
+  updated: 2025-10-29
   schema:
     - name: district_id
       description: district ID
@@ -333,24 +333,12 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/tree/main/data/03-gold/berlin-microcensus-housing-situation-geojson
       license:
-      updated: 2025-10-28
+      updated: 2025-10-29
       schema:
     files:
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/refs/heads/main/data/03-gold/berlin-microcensus-housing-situation-geojson/berlin-microcensus-housing-situation-2014-00-districts.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/refs/heads/main/data/03-gold/berlin-microcensus-housing-situation-geojson/berlin-microcensus-housing-situation-2018-00-districts.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/refs/heads/main/data/03-gold/berlin-microcensus-housing-situation-geojson/berlin-microcensus-housing-situation-2022-00-districts.geojson
-    manifest_url:
-  - id: berlin-microcensus-housing-situation-statistics
-    metadata:
-      name: Berlin Microcensus Housing Situation Statistics
-      owner: Open Lifeworlds
-      description:
-      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/tree/main/data/03-gold/berlin-microcensus-housing-situation-statistics
-      license:
-      updated: 2025-10-28
-      schema:
-    files:
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/refs/heads/main/data/03-gold/berlin-microcensus-housing-situation-statistics/berlin-microcensus-housing-situation-statistics.json
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/main/data/03-gold/berlin-microcensus-housing-situation-geojson/berlin-microcensus-housing-situation-2014-00-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/main/data/03-gold/berlin-microcensus-housing-situation-geojson/berlin-microcensus-housing-situation-2018-00-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/main/data/03-gold/berlin-microcensus-housing-situation-geojson/berlin-microcensus-housing-situation-2022-00-districts.geojson
     manifest_url:
 observability:
   quality:

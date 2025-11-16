@@ -3,7 +3,41 @@
 <br />
 <p align="center">
   <a href="https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation">
-    <img src="logo-with-text.png" alt="Logo" ## Usage
+    <img src="logo-with-text.png" alt="Logo" style="height: 80px; ">
+  </a>
+
+  <h1 align="center">Berlin LOR microcensus housing situation</h1>
+
+  <p align="center">
+    Data product providing Berlin LOR microcensus housing situation</a>
+  </p>
+</p>
+
+## About The Project
+
+See
+* [Data Product Canvas](docs/data-product-canvas.md)
+* [Open Data Product Specification canvas](./docs/odps-canvas.md) and 
+* [Data Product Descriptor Specification canvas](./docs/dpds-canvas.md)
+
+See also [main.ipynb](./main.ipynb) for a sample notebook.
+
+### Built With
+
+* [Python](https://www.python.org/)
+* [uv](https://docs.astral.sh/uv/)
+* [ruff](https://docs.astral.sh/ruff/)
+
+## Installation
+
+Install uv, see https://github.com/astral-sh/uv?tab=readme-ov-file#installation.
+
+```shell
+# On macOS and Linux.
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+## Usage
 
 Run this command to generate and activate a virtual environment.
 
