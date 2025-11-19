@@ -48,6 +48,8 @@
 ### Output Ports
 #### berlin-microcensus-housing-situation-geojson
 * fully qualified name: berlin-microcensus-housing-situation-geojson
+#### berlin-microcensus-housing-situation-statistics
+* fully qualified name: berlin-microcensus-housing-situation-statistics
 
 
 ---
