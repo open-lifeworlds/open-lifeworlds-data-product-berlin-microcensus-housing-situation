@@ -58,8 +58,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-microcensus-housing-situation-source-aligned
-      fullyQualifiedName: berlin-lor-microcensus-housing-situation-source-aligned
+      id: berlin-microcensus-housing-situation-source-aligned
+      fullyQualifiedName: berlin-microcensus-housing-situation-source-aligned
       entityType:
       name: ''
       version:

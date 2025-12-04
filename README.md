@@ -1,15 +1,15 @@
-[![Issues](https://img.shields.io/github/issues/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation)](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation/issues)
+[![Issues](https://img.shields.io/github/issues/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation)](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/issues)
 
 <br />
 <p align="center">
-  <a href="https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation">
+  <a href="https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation">
     <img src="logo-with-text.png" alt="Logo" style="height: 80px; ">
   </a>
 
-  <h1 align="center">Berlin LOR microcensus housing situation</h1>
+  <h1 align="center">Berlin Microcensus Housing Situation</h1>
 
   <p align="center">
-    Data product providing Berlin LOR microcensus housing situation</a>
+    Data product providing Berlin LOR microcensus housing situation<
   </p>
 </p>
 
@@ -66,7 +66,7 @@ uv run main.py
 
 ## Roadmap
 
-See the [open issues](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation/issues) for a list of proposed features (and
+See the [open issues](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/issues) for a list of proposed features (and
  known issues).
 
 ## License

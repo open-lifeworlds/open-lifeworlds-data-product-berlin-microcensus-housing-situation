@@ -13,7 +13,7 @@
 
 * manifest URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/refs/heads/main/data-product-manifest.yml
 
-### berlin-lor-microcensus-housing-situation-source-aligned
+### berlin-microcensus-housing-situation-source-aligned
 
 * manifest URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/refs/heads/main/data-product-manifest.yml
 

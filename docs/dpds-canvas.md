@@ -22,8 +22,8 @@
 ### Input Ports
 #### berlin-lor-geodata
 * fully qualified name: berlin-lor-geodata
-#### berlin-lor-microcensus-housing-situation-source-aligned
-* fully qualified name: berlin-lor-microcensus-housing-situation-source-aligned
+#### berlin-microcensus-housing-situation-source-aligned
+* fully qualified name: berlin-microcensus-housing-situation-source-aligned
 
 ### Output Ports
 #### berlin-microcensus-housing-situation-geojson

@@ -1,7 +1,7 @@
 [project]
-name = "open-lifeworlds-data-product-berlin-lor-microcensus-housing-situation"
+name = "open-lifeworlds-data-product-berlin-microcensus-housing-situation"
 version = "0.1.0"
-description = "Data product combining Berlin LOR microcensus housing situation data and geodata"
+description = "Data product combining Berlin microcensus housing situation data and geodata"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

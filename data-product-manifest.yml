@@ -147,7 +147,7 @@ metadata:
 input_ports:
   - id: berlin-lor-geodata
     manifest_url: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/refs/heads/main/data-product-manifest.yml
-  - id: berlin-lor-microcensus-housing-situation-source-aligned
+  - id: berlin-microcensus-housing-situation-source-aligned
     manifest_url: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/refs/heads/main/data-product-manifest.yml
 transformation_steps:
   - name: Data extractor
