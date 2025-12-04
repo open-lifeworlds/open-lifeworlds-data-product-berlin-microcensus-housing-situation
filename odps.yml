@@ -12,17 +12,16 @@ product:
       - geojson
       - .json
     brandSlogan:
-    categories:
-      - timeseries
+    categories: []
     description: Data products providing Berlin microcensus housing situation data on different hierarchy levels
-    logoURL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/logo-with-text.png
-    productSeries: Berlin Timeseries Series
+    logoURL: https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-microcensus-housing-situation/refs/heads/main/logo-with-text.png
+    productSeries:
     standards: []
     tags:
       - berlin
       - housing
     useCases: []
-    valueProposition: Combining Berlin microcensus housing situation data and geodata
+    valueProposition:
     version: '1.0'
   sla: []
   dataAccess:
